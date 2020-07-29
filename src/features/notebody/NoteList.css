@@ -1,0 +1,82 @@
+.noNotes {
+    font-size: 30px;
+    text-align: center;
+}
+
+.note {
+    background-color: #201e1e;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 10px 0px;
+    position: relative;
+}
+
+.note h2 {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.noteCompleted {
+    opacity: 0.4;
+    background-color: rgb(1, 78, 1);
+}
+
+.noteHead {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.noteStatus {
+    margin-left: auto;
+    background-color: #201e1e;
+    color: white;
+    border: 1px groove coral;
+}
+
+.noteStatus option {
+    background-color: black;
+}
+
+.formContainer {
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    overflow: hidden;
+    background-color: #201e1e;
+    transition: 0.5s;
+}
+
+.shown {
+    width: 95%;
+} 
+
+.hidden {
+    width: 0;
+}
+
+form {
+    display: grid;
+    width: 50%;
+    margin: 20% auto;
+    padding: 15px 10px;
+}
+
+form label {
+    margin-bottom: 2px;
+}
+
+form input {
+    min-height: 30px;
+    margin-bottom: 10px;
+}
+
+form textarea {
+    min-height: 70px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    form {
+        width: auto;
+    }
+}

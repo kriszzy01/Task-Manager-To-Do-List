@@ -1,0 +1,11 @@
+.removeNote {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    right: 43px;
+    bottom: 10px;
+    border: none;
+    background-color: red;
+    font-size: 24px;
+}

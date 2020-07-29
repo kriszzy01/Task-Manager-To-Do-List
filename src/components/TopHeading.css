@@ -1,0 +1,9 @@
+.top-heading {
+    text-align: center;
+    padding: 50px;
+}
+
+.top-heading p {
+    font-size: 11px;
+    color: grey
+}

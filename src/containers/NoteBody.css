@@ -1,0 +1,36 @@
+.note-body {
+    border-top: 1px groove tomato;
+}
+
+.note-entries {
+    background-color: rgb(53, 52, 52);
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    position: relative;
+}
+
+.note-entries p:nth-child(1) {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.note-entries p:not(:first-child) {
+    font-size: 12px;
+}
+
+.note-entries p:last-child {
+    color: rgb(143, 140, 140);
+}
+
+.note-entries button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: tomato;
+    border: none;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
